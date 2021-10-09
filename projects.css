@@ -1,0 +1,193 @@
+/* I'm sorry for the bad HTML and CSS practices, It's been a while 😬 */
+/*-------- ACCENT COLOR --------*/
+/*-------- #ff1e5e --------*/
+/*-------------------------*/
+body{
+    background: url(images/background.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #5c5c5c;
+}
+.resume_page{
+    width: 100%;
+    height: auto;
+    padding: 150px 0 0;
+}
+
+/*-------- Header Tags--------*/
+/*-------------------------*/
+header{
+    background-color: #ff1e5e;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    overflow: hidden;
+    z-index: 100; 
+}
+.logo{
+    width: 50px;
+    height: auto;
+    padding-top: 10px;
+}
+.important{
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 0px;
+}
+
+/*-------- nav Tag --------*/
+/*-------------------------*/
+nav{
+    margin-left: auto;
+    display: flex;
+}
+.nav_contents{
+    padding: 10px 30px;
+}
+
+
+/*-------- a Tags --------*/
+/*-------------------------*/
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+a:hover{
+    color: #e7f0de;
+
+}
+.projects{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*-------- .hero Tags --------*/
+/*-------------------------*/
+.hero{
+    padding: 200px 0 0;
+    z-index: -1;
+    overflow: hidden;
+    position: fixed;
+    color: white;
+}
+.name{
+    font-size: 50px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 20px;
+    margin-left: 250px ;
+}
+.quote{
+    font-size: 30px;
+    margin-left: 250px;
+    margin-top: -20px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+/*-------- .main Tags --------*/
+/*-------------------------*/
+.main{
+    background-color: brown;
+    width: auto;
+    margin-top: 600px;
+    height: 2250px;
+}
+.main1{
+    background-color: #e7f0de;
+    width: auto;
+    height: 1000px;
+    overflow: hidden;
+}
+.main2{
+    background-color: #ffffff;
+    width: auto;
+    height: 1250px;
+}
+.main3{
+    background-color: white;
+    width: auto;
+    height: 1000px;
+    display: flexbox;
+}
+.main1_box1{
+    /* background-color: darkgray; */
+    width: auto;
+    height: 500px;
+}
+.main1_box2{
+    /* background-color: darkgray; */
+    width: auto;
+    height: 500px;
+    padding-top: 50px;
+}
+.main2_box1{
+    /* background-color: purple; */
+    width: auto;
+    height: 500px;
+}
+.main2_box2{
+    background-color: hsl(27, 100%, 82%);
+    width: auto;
+    height: 500px;
+}
+.main3_container1_box1{
+    /* background-color: cornflowerblue; */
+    width: auto;
+    height: 500px;
+}
+.main3_container1_box2{
+    /* background-color: cornflowerblue; */
+    width: auto;
+    height: 500px;
+}
+.main3_container2_box1{
+    /* background-color: tomato; */
+    width: auto;
+    height: 500px;
+}
+.main3_container2_box2{
+    /* background-color: tomato; */
+    width: auto;
+    height: 500px;
+}
+
+/*-------- p Tags --------*/
+/*-------------------------*/
+.main3_container2_box1 .content_wrapper {
+    padding-top: 100px;
+}
+.content_heading{
+    font-weight: 500;
+    font-size: 24px;
+    padding: 50px 0 0;
+}
+.content_contents{
+    font-weight: 400;
+    font-size: 18px;
+}
+.image{
+    width: 460px;
+    height: auto;
+    padding-top: 0;
+}
+
+/*-------- Footer Tag --------*/
+/*-------------------------*/
+footer{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: auto;
+    width: auto;
+    height: 200px;
+    backdrop-filter:blur(8px);
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    padding: 60px 0 0;
+}
+.signature{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
